@@ -57,7 +57,7 @@ class TimeInput extends React.Component<ITimeInputProps, ITimeInputState> {
 
     public handleChange = (event: any) => {
         this.setState({ value: event.target.value });
-    }; 3:23
+    }; 
 
     public handleBlur = (event: any) => {
         const inputStr = event.target.value.replace(":", "").trim();
